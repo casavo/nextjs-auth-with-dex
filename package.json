@@ -1,20 +1,15 @@
 {
-  "name": "next-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nextjs-server-side-oidc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "pnpm --filter next-app dev"
   },
-  "dependencies": {
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.8",
-    "next": "13.0.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
     "typescript": "4.8.4"
   }
 }

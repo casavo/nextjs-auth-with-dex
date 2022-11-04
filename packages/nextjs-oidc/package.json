@@ -1,0 +1,42 @@
+{
+  "name": "nextjs-oidc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "./build/index.js",
+  "module": "./build/index.js",
+  "scripts": {
+    "clean": "rm -rf build tsconfig.tsbuildinfo",
+    "build": "tsc --incremental --declaration --project '.'"
+  },
+  "exports": {
+    ".": {
+      "require": "./build/index.js",
+      "node": "./build/index.js"
+    }
+  },
+  "files": [
+    "./build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookie": "^0.5.1",
+    "@types/http-errors": "^2.0.1",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "peerDependencies": {
+    "next": "13.0.2"
+  },
+  "dependencies": {
+    "@hapi/iron": "^7.0.0",
+    "base64url": "^3.0.1",
+    "cookie": "^0.5.0",
+    "http-errors": "^2.0.0",
+    "nextjs-oidc": "^1.1.0",
+    "openid-client": "^5.2.1"
+  }
+}
